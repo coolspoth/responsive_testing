@@ -89,7 +89,7 @@ img {
 	max-width: 45%;
 }
 
-#header {
+header {
 	background-position: 0 top;
 	background-repeat: repeat-x;
 	background-image: url(../img/buntingSlice3.png);
@@ -110,7 +110,7 @@ img {
 #logo span { color: #dfdada;
 }
 
-#navigation {
+nav {
 	padding-bottom: 25px;
 	margin-top: 26px;
 	margin-left: -1.0416667%;
@@ -124,12 +124,12 @@ img {
 	border-bottom-width: 4px;
 }
 
-#navigation ul li {
+nav ul li {
 	display: inline-block;
 	margin-right: 2.6595745%; /* 25 ÷ 940 */
 }
 
-#navigation ul li a {
+nav ul li a {
 	height: 42px;
 	line-height: 1.555555556em; /* 42 ÷ 27 */
 	text-decoration: none;
@@ -172,7 +172,7 @@ img {
 	font-size: 1.5em; /* 24 ÷ 16 */
 }
 
-#sidebar {
+aside {
 	border-right-color: #e8e8e8;
 	border-right-style: solid;
 	border-right-width: 2px;
@@ -183,7 +183,7 @@ img {
 	width: 22.7083333%;
 }
 
-#sidebar h4 {
+aside h4 {
 	margin-bottom: 20px;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	font-size: 1.25em; /* 20 ÷ 16 */
@@ -193,7 +193,7 @@ img {
 	margin-top: 27px;
 }
 
-#footer {
+footer {
 	padding-bottom: 43px;
 	float: left;
 	margin-top: 20px;
@@ -210,7 +210,7 @@ img {
 	border-top-width: 4px;
 }
 
-#footer p {
+footer p {
 	margin-bottom: 38px;
 	text-align: center;
 	font-size: 0.8125em; /* 13 / 16 */
@@ -219,15 +219,31 @@ img {
 	color: #757474;
 }
 
+@media screen and (min-width: 1001px) and (max-width: 1080px) {
+	nav ul li a {
+		font-size: 1.4em;
+	}
+}
+@media screen and (min-width: 805px) and (max-width: 1000px) {
+	nav ul li a {
+		font-size: 1.25em;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 804px) {
+	nav ul li a {
+		font-size: 1.1em;
+	}
+}
+
 @media screen and (max-width: 768px) {
-	#wrapper,#header,#footer,#navigation {
+	#wrapper,header,footer,nav {
 		width: 768px;
 		margin: 0px;
 	}
 	#logo {
 		text-align:center;
 	}
-	#navigation {
+	nav {
 		text-align: center;
 		background-image: none;
 		border-top-color: #bfbfbf;
@@ -235,12 +251,12 @@ img {
 		border-top-width: 4px;
 		padding-top: 20px;
 	}
-	#navigation ul li a {
+	nav ul li a {
 		background-color: #dedede;
 		line-height: 60px;
 		font-size: 40px;
 	}
-	#content, #sidebar {
+	#content, aside {
 		margin-top: 20px;
 		padding-right: 10px;
 		padding-left: 10px;
@@ -252,7 +268,7 @@ img {
 		width: 150px;
 		height: 394px;
 	}
-	#sidebar {
+	aside {
 		border-right: none;
 		border-top: 2px solid #e8e8e8;
 		padding-top: 20px;
