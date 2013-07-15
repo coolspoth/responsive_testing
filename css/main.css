@@ -159,7 +159,7 @@ nav ul li a {
 	font-size: 4.3125em; /* 69/16 */
 }
 
-#content h1 span {
+#content h1 em {
 	display: block;
 	line-height: 1.052631579em; /* 40÷38 */
 	color: #757474;
@@ -217,6 +217,11 @@ footer p {
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	text-transform: uppercase;
 	color: #757474;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1080px) {
@@ -282,4 +287,5 @@ footer p {
 		margin-top: 0px;
 		margin-left: 50px;
 	}
+
 }

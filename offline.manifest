@@ -1,0 +1,20 @@
+CACHE MANIFEST
+#v1
+
+CACHE:
+index.html
+css/main.css
+img/atwiNavBg.png
+img/kingHong.jpg
+img/midnightRun.jpg
+img/moulinRouge.jpg
+img/oscar.png
+img/wyattEarp.png
+img/buntingSlice3Invert.png
+img/buntingSlice3.png
+
+NETWORK:
+*
+
+FALLBACK:
+/ /testarea/responsive_testing/own/offline.html
